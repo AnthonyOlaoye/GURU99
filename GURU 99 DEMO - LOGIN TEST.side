@@ -1,0 +1,212 @@
+{
+  "id": "4432b0de-45b4-41d2-a151-d760ac691072",
+  "version": "2.0",
+  "name": "GURU 99 DEMO - LOGIN TEST",
+  "url": "https://www.demo.guru99.com/v4/",
+  "tests": [{
+    "id": "15363a33-5343-483f-bd63-c99d745b6913",
+    "name": "Guru99_Demo_Testing",
+    "commands": [{
+      "id": "bfbc0abf-0841-4558-8a61-ee483187de84",
+      "comment": "",
+      "command": "open",
+      "target": "/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c30fbce-850d-430a-8047-80f1c17d737f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f9a4e3-173d-4cb8-bd37-37f0ddba9750",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc7d604-ae23-468e-aff7-423e172ccc26",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7666b56-4fe7-4d13-93af-38ff916c7a45",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9601cd94-4faf-4d1f-976e-330b318474d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mngr549901"
+    }, {
+      "id": "20fdf33c-77c4-4211-af35-686f01a04539",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc0c184c-3997-4bb7-8d2e-d2430224b703",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434047cc-7c75-4e96-b72b-7e268c9fbf92",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "azygUhA"
+    }, {
+      "id": "76dfb141-55aa-4a5d-bbeb-d42906a3668f",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=tr:nth-child(3) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8e4c2a1-6550-494b-8419-fb5cc46d096f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cd5b8ef3-0bfc-49a3-92e3-92554e52ed8d",
+    "name": "Login_Credentials",
+    "commands": [{
+      "id": "d70aa207-416b-4db8-b165-06298b6d7c1d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.demo.guru99.com/v4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1640fe7-24ed-4a7f-a479-ec8122a7b18c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1304x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f2400e-535f-4fa7-a38f-3d3543311238",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34e36f9a-ccfa-47e9-a067-a34bab3bdfd6",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mngr549901"
+    }, {
+      "id": "d5a79868-9e8d-429c-b3ed-6136d7c513c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf72459e-298e-445f-844f-a3615b5eb05f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "azygUhA"
+    }, {
+      "id": "5639f727-7ffa-40c3-b9e4-8ce55d37c196",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=tr:nth-child(3) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "958f58a7-f6f4-4d1b-a092-7e458311eb9a",
+    "name": "Guru99_Demo_Trsting",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd5b8ef3-0bfc-49a3-92e3-92554e52ed8d"]
+  }],
+  "urls": ["https://www.demo.guru99.com/", "https://www.demo.guru99.com/v4/"],
+  "plugins": []
+}
